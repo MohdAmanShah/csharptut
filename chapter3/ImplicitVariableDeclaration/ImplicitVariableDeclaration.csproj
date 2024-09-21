@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameWork>net8.0</TargetFrameWork>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>
