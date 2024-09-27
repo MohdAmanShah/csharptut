@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures\Structures.csproj", "{644D3B3D-2116-485E-A270-480C814B5B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeAndReferenceType", "ValueTypeAndReferenceType\ValueTypeAndReferenceType.csproj", "{6F39097F-ECC4-4680-BF12-1BF1ED887CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{983E6AA5-54A1-45D7-BF1C-EDB6E9ACF639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{644D3B3D-2116-485E-A270-480C814B5B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{644D3B3D-2116-485E-A270-480C814B5B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{644D3B3D-2116-485E-A270-480C814B5B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F39097F-ECC4-4680-BF12-1BF1ED887CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F39097F-ECC4-4680-BF12-1BF1ED887CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F39097F-ECC4-4680-BF12-1BF1ED887CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F39097F-ECC4-4680-BF12-1BF1ED887CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983E6AA5-54A1-45D7-BF1C-EDB6E9ACF639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983E6AA5-54A1-45D7-BF1C-EDB6E9ACF639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983E6AA5-54A1-45D7-BF1C-EDB6E9ACF639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983E6AA5-54A1-45D7-BF1C-EDB6E9ACF639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
