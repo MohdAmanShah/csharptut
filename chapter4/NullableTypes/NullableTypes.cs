@@ -13,6 +13,12 @@ public partial class Program
 
 class TestClass
 {
-    public string Name;
+    public string Name = String.Empty;
     public int Age;
+    public TestClass() { }
+    public TestClass(int age, string name)
+    {
+        Name = name;
+        Age = age;
+    }
 }
