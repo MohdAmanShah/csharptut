@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Footer Layout Challenge</title>
+    <style>
+      /* Your CSS code goes here */
+      .site-footer
+      {
+        display:flex;
+        justify-content: space-between;
+        background: #333;
+        color: white;
+        position: fixed;
+        bottom:0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      .footer-section
+      {
+        padding: 0px 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <footer class="site-footer">
+      <div class="footer-section">Contact: contact@example.com</div>
+      <div class="footer-section">
+        Social: <a href="#">Facebook</a> | <a href="#">Twitter</a>
+      </div>
+      <div class="footer-section">&copy; 2023 Example Company</div>
+    </footer>
+  </body>
+</html>

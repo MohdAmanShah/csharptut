@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{39EE0DEC-829C-4A32-B28D-BAE1D25CDC3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C8FA51AB-9EA6-4E6F-9DF2-35FD5C4C5160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{39EE0DEC-829C-4A32-B28D-BAE1D25CDC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EE0DEC-829C-4A32-B28D-BAE1D25CDC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EE0DEC-829C-4A32-B28D-BAE1D25CDC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FA51AB-9EA6-4E6F-9DF2-35FD5C4C5160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FA51AB-9EA6-4E6F-9DF2-35FD5C4C5160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FA51AB-9EA6-4E6F-9DF2-35FD5C4C5160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FA51AB-9EA6-4E6F-9DF2-35FD5C4C5160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
