@@ -1,16 +1,13 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
-
-namespace inheritence;
-
 public partial class Employee
 {
     protected static StringBuilder _toString = new StringBuilder();
-    public string Name { get; set; }
+    public string? Name { get; set; }
     public int Age { get; set; }
     public int Id { get; set; }
-    public string SSN { get; init; }
+    public string? SSN { get; init; }
     public int Pay { get; set; }
     public PayTypeEnum PayType { get; set; }
     public Employee() { }
@@ -51,10 +48,17 @@ public class Manager : Employee
     }
     public override string ToString()
     {
+        base.ToString();
         _toString.Remove(_toString.Length - 2, 2);
-        _toString.Append("\tStock Option: +" + StockOptions + Environment.NewLine);
+        _toString.Append("\tStock Option: " + StockOptions + Environment.NewLine);
         _toString.Append("}\n");
         return _toString.ToString();
+    }
+    public override void GiveBonus(int amount)
+    {
+        base.GiveBonus(amount);
+        Random r = new Random();
+        StockOptions += r.Next(500);
     }
 }
 
@@ -66,24 +70,24 @@ public class SalesPerson : Employee
     {
         NumberOfSales = numberofsales;
     }
-}
-
-public class BenefitPackage
-{
-    public double CommutePayDeduction()
+    public override sealed void GiveBonus(int amount)
     {
-        return 125.0;
+        int salesBonus = 0;
+        if (NumberOfSales is > 0 and < 100)
+        {
+            salesBonus = 10;
+        }
+        else
+        {
+            if (NumberOfSales is > 100 and <= 200)
+            {
+                salesBonus = 15;
+            }
+            else
+            {
+                salesBonus = 20;
+            }
+        }
+        base.GiveBonus(amount * salesBonus);
     }
-}
-
-public partial class Employee
-{
-    protected BenefitPackage EmpBenefits = new BenefitPackage();
-    public double GetBenefitCost() => EmpBenefits.CommutePayDeduction();
-    public BenefitPackage Benefits
-    {
-        get { return EmpBenefits; }
-        set { EmpBenefits = value;  }
-    }
-
 }
