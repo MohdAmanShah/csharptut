@@ -1,0 +1,2 @@
+﻿using static Functions;
+FunOne();
