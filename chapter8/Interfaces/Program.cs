@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿SomeClass s = new SomeClass(5, 4);
+AnotherClass a = new AnotherClass() { N = 3, S = 4 };
+SomeFunction(s);
+void SomeFution(IInterface e)
+{
+    Console.WriteLine(e.P);
+}
+
