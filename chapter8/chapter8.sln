@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitImplementation", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerator", "CustomEnumerator\CustomEnumerator.csproj", "{B65BB796-9584-4164-B0AB-F1E8C6916A97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clonable", "Clonable\Clonable.csproj", "{AB0DFB15-29CD-45C7-8E86-8B6AA58074B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IComparable", "IComparable\IComparable.csproj", "{042559F0-8C96-4F0E-85E0-D72217581DB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{B65BB796-9584-4164-B0AB-F1E8C6916A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B65BB796-9584-4164-B0AB-F1E8C6916A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B65BB796-9584-4164-B0AB-F1E8C6916A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0DFB15-29CD-45C7-8E86-8B6AA58074B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0DFB15-29CD-45C7-8E86-8B6AA58074B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0DFB15-29CD-45C7-8E86-8B6AA58074B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0DFB15-29CD-45C7-8E86-8B6AA58074B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042559F0-8C96-4F0E-85E0-D72217581DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042559F0-8C96-4F0E-85E0-D72217581DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042559F0-8C96-4F0E-85E0-D72217581DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042559F0-8C96-4F0E-85E0-D72217581DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
