@@ -1,6 +1,12 @@
-using System.Collections.Generic;
-namespace generics;
-public class Coll<T> where T : class
+public static class Class
 {
-    List<T> List;
+    public static void Prog()
+    {
+        Compare<int>(32, 21);
+    }
+    public static void Compare<T>(T a, T b)
+    {
+        Console.WriteLine(a.GetType());
+        Console.WriteLine(b.GetType());
+    }
 }

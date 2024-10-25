@@ -1,2 +1,2 @@
-﻿using static DD;
+﻿using static Class;
 Prog();
