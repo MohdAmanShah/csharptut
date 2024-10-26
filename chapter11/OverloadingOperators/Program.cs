@@ -21,6 +21,8 @@
         Console.WriteLine(p1 == p2);
         Console.WriteLine(p1 < p2);
         Console.WriteLine(p1 <= p2);
+        Console.WriteLine(p1 < p3);
+        Console.WriteLine(p1 > p3);
     }
 }
 
