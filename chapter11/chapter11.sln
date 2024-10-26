@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingOperators", "OverloadingOperators\OverloadingOperators.csproj", "{2BF35A50-C90F-4352-B588-0F51ADB150E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTypeConversion", "CustomTypeConversion\CustomTypeConversion.csproj", "{1CE0B6F7-5E10-47B1-B1C5-8CAA07CCA486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2BF35A50-C90F-4352-B588-0F51ADB150E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF35A50-C90F-4352-B588-0F51ADB150E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF35A50-C90F-4352-B588-0F51ADB150E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE0B6F7-5E10-47B1-B1C5-8CAA07CCA486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE0B6F7-5E10-47B1-B1C5-8CAA07CCA486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE0B6F7-5E10-47B1-B1C5-8CAA07CCA486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE0B6F7-5E10-47B1-B1C5-8CAA07CCA486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
