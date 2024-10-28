@@ -10,6 +10,10 @@
             c1.Accelerate(24);
         }
     }
+    static void DoIt()
+    {
+        Console.WriteLine("Don't ");
+    }
     static void CarAboutBlow(object? sender, CarEventArgs e)
     {
         if (sender is Car c)
