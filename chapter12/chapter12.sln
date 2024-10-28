@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{2F868110-66BA-4EF3-8691-17836E87E13F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "CarDelegate\CarDelegate.csproj", "{99AA3BCF-F1F7-45FD-B899-819C43ED7C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegates", "GenericDelegates\GenericDelegates.csproj", "{F8C36FE9-5335-479B-A076-606A808329E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{2F868110-66BA-4EF3-8691-17836E87E13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F868110-66BA-4EF3-8691-17836E87E13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F868110-66BA-4EF3-8691-17836E87E13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AA3BCF-F1F7-45FD-B899-819C43ED7C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AA3BCF-F1F7-45FD-B899-819C43ED7C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AA3BCF-F1F7-45FD-B899-819C43ED7C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AA3BCF-F1F7-45FD-B899-819C43ED7C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C36FE9-5335-479B-A076-606A808329E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C36FE9-5335-479B-A076-606A808329E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C36FE9-5335-479B-A076-606A808329E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C36FE9-5335-479B-A076-606A808329E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
