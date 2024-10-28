@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerType", "EventHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anonymoustypes", "Anonymoustypes\Anonymoustypes.csproj", "{30AE4E88-A3E6-4881-88EE-656DE30A7A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{E64335B1-F8AC-4210-9E77-9BA5EDFA9EB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{30AE4E88-A3E6-4881-88EE-656DE30A7A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30AE4E88-A3E6-4881-88EE-656DE30A7A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30AE4E88-A3E6-4881-88EE-656DE30A7A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64335B1-F8AC-4210-9E77-9BA5EDFA9EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64335B1-F8AC-4210-9E77-9BA5EDFA9EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64335B1-F8AC-4210-9E77-9BA5EDFA9EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64335B1-F8AC-4210-9E77-9BA5EDFA9EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
