@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq", "linq\linq.csproj", "{65A63FFE-C200-4C4A-A835-45E14F3ECDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqReturn", "LinqReturn\LinqReturn.csproj", "{D86C1D26-2585-44AB-B88C-5BD830FB6AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInfo", "ProductInfo\ProductInfo.csproj", "{D3A352E7-5C1F-4BD0-9147-63C6AFEA6750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A63FFE-C200-4C4A-A835-45E14F3ECDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A63FFE-C200-4C4A-A835-45E14F3ECDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A63FFE-C200-4C4A-A835-45E14F3ECDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A63FFE-C200-4C4A-A835-45E14F3ECDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86C1D26-2585-44AB-B88C-5BD830FB6AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86C1D26-2585-44AB-B88C-5BD830FB6AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86C1D26-2585-44AB-B88C-5BD830FB6AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86C1D26-2585-44AB-B88C-5BD830FB6AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A352E7-5C1F-4BD0-9147-63C6AFEA6750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A352E7-5C1F-4BD0-9147-63C6AFEA6750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A352E7-5C1F-4BD0-9147-63C6AFEA6750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A352E7-5C1F-4BD0-9147-63C6AFEA6750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
