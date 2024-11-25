@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessInteraction", "ProcessInteraction\ProcessInteraction.csproj", "{42C42F91-49FD-41BE-9A33-4350C011759C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomain", "AppDomain\AppDomain.csproj", "{8DC135E4-CECF-4C21-9FC8-6E0C629BB36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib1", "ClassLib1\ClassLib1.csproj", "{ACCE3E31-6FE7-495F-8A46-61D8D3511B7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{42C42F91-49FD-41BE-9A33-4350C011759C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C42F91-49FD-41BE-9A33-4350C011759C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C42F91-49FD-41BE-9A33-4350C011759C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC135E4-CECF-4C21-9FC8-6E0C629BB36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC135E4-CECF-4C21-9FC8-6E0C629BB36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC135E4-CECF-4C21-9FC8-6E0C629BB36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC135E4-CECF-4C21-9FC8-6E0C629BB36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCE3E31-6FE7-495F-8A46-61D8D3511B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCE3E31-6FE7-495F-8A46-61D8D3511B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCE3E31-6FE7-495F-8A46-61D8D3511B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCE3E31-6FE7-495F-8A46-61D8D3511B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
