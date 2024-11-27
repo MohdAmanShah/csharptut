@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarClient", "CarClient\CarC
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VbCarClient", "VbCarClient\VbCarClient.vbproj", "{9DE1A424-13B4-4540-8A6C-7868EAF11634}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbingPaths", "ProbingPaths\ProbingPaths.csproj", "{74D4CE90-6034-434D-8E68-223B2059ADC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9DE1A424-13B4-4540-8A6C-7868EAF11634}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE1A424-13B4-4540-8A6C-7868EAF11634}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE1A424-13B4-4540-8A6C-7868EAF11634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D4CE90-6034-434D-8E68-223B2059ADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D4CE90-6034-434D-8E68-223B2059ADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D4CE90-6034-434D-8E68-223B2059ADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D4CE90-6034-434D-8E68-223B2059ADC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

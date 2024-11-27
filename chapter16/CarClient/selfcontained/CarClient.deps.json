@@ -1,0 +1,42 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/win-x64": {
+      "CarClient/1.0.0": {
+        "dependencies": {
+          "Cars": "1.0.2"
+        },
+        "runtime": {
+          "CarClient.dll": {}
+        }
+      },
+      "Cars/1.0.2": {
+        "runtime": {
+          "lib/net9.0/CarLibrary.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CarClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cars/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DJ8OmyIEP1BNsAqHajuaZM7jKeiCJCn3pzjgqfM/eP5BFGV53Z4ggjZN13Eyq/6f20U9XvZbetqD7pIephw6NQ==",
+      "path": "cars/1.0.2",
+      "hashPath": "cars.1.0.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+﻿BinaryReader binaryReader = new BinaryReader();
