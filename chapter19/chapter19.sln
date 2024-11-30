@@ -5,6 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOOperations", "IOOperations\IOOperations.csproj", "{38193718-2E96-4649-A10E-96EE329086A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveInfos", "DriveInfos\DriveInfos.csproj", "{E37A9CBC-DF13-4088-BD3A-3F548944078C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{B323F790-2568-4BF2-BF11-919B9196D7CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsIO", "StreamsIO\StreamsIO.csproj", "{9A0AC8BA-4AE6-4BA8-8FAC-C5E58A49D137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryReaderWriter", "BinaryReaderWriter\BinaryReaderWriter.csproj", "{5A544559-F609-46E7-B2E1-CCFC89D4ABFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watchers", "Watchers\Watchers.csproj", "{D5F81794-711F-4AEC-BC7D-0D552D14D6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializations", "Serializations\Serializations.csproj", "{28A16BD8-7A24-480B-BD2A-A040C9900E0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +30,29 @@ Global
 		{38193718-2E96-4649-A10E-96EE329086A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38193718-2E96-4649-A10E-96EE329086A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38193718-2E96-4649-A10E-96EE329086A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37A9CBC-DF13-4088-BD3A-3F548944078C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37A9CBC-DF13-4088-BD3A-3F548944078C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37A9CBC-DF13-4088-BD3A-3F548944078C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37A9CBC-DF13-4088-BD3A-3F548944078C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B323F790-2568-4BF2-BF11-919B9196D7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B323F790-2568-4BF2-BF11-919B9196D7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B323F790-2568-4BF2-BF11-919B9196D7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B323F790-2568-4BF2-BF11-919B9196D7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0AC8BA-4AE6-4BA8-8FAC-C5E58A49D137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0AC8BA-4AE6-4BA8-8FAC-C5E58A49D137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0AC8BA-4AE6-4BA8-8FAC-C5E58A49D137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0AC8BA-4AE6-4BA8-8FAC-C5E58A49D137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A544559-F609-46E7-B2E1-CCFC89D4ABFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A544559-F609-46E7-B2E1-CCFC89D4ABFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A544559-F609-46E7-B2E1-CCFC89D4ABFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A544559-F609-46E7-B2E1-CCFC89D4ABFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F81794-711F-4AEC-BC7D-0D552D14D6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F81794-711F-4AEC-BC7D-0D552D14D6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F81794-711F-4AEC-BC7D-0D552D14D6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F81794-711F-4AEC-BC7D-0D552D14D6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A16BD8-7A24-480B-BD2A-A040C9900E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A16BD8-7A24-480B-BD2A-A040C9900E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A16BD8-7A24-480B-BD2A-A040C9900E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A16BD8-7A24-480B-BD2A-A040C9900E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
