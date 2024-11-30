@@ -1,0 +1,11 @@
+{
+  "$id": "1",
+  "Name": "John",
+  "Friend": {
+    "$id": "2",
+    "Name": "Rock",
+    "Friend": {
+      "$ref": "1"
+    }
+  }
+}
